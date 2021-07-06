@@ -1,7 +1,13 @@
 body {
     margin: 0;
+    
     font-family: 'Encode Sans SC', sans-serif;
     font-family: 'Otomanopee One', sans-serif;
+}
+
+h1 {
+    
+    font-size: 40px;
 }
 .orange {
     color:orangered;
@@ -40,4 +46,34 @@ body {
 
 #mid-bg p{
     margin-right: 50px;
+}
+#bottom-bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.shadow {
+    box-shadow: 10px 10px 40px gray;
+    width: 45%;
+    padding: 3%;
+    margin: 3% 2% 2% 5% ;
+    border-radius: 10px;
+    
+}
+
+#shad1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#shad2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, olive);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
